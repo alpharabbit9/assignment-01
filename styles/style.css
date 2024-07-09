@@ -22,13 +22,13 @@ body{
 
 }
 .banner{
-    width: 998px;
+   max-width: 998px;
     height: 552px;
     text-align: center;
 }
 
 .banner-img{
-    width: 240px;
+    max-width: 240px;
     height: 240px;
 
 }
@@ -57,7 +57,7 @@ text-align: center;
 }
 
 .banner-btn{
-    width: 208px;
+    max-width: 208px;
     height: 66px;
     font-family: "Azeret Mono", monospace;
     font-size: 18px;
@@ -71,19 +71,20 @@ text-align: center;
 /* Question and Answer box style | section-1 */
 
 .answer-box{
-    width: 1200px;
+    max-width: 1200px;
     height: 1395px;
     margin: 78px 152px 88px 148px;
-    background-color: aquamarine;
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 .answer-box-container{
-    width: 946px;
+    max-width: 947px;
     height: 1235px;
-    /* background-color: brown; */
     text-align: center;
     
    
@@ -101,4 +102,91 @@ text-align: center;
     color: black;
     opacity: 0.7;
 
+}
+.answer-box-1{
+    max-width: 947px;
+    height: 236px;
+    margin-top: 42px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.answer-box-1-content{
+    max-width: 477px;
+    height: 220px;
+    text-align: left;
+
+}
+.box-1-img{
+    max-width: 259px;
+    height: 217px;
+    padding-right: 65px;
+}
+
+.box-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    opacity: 0.7;
+
+}
+.box-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+.box-btn{
+    max-width: 140px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px 12px 20px;
+    margin-top: 32px 0px;
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+}
+
+.answer-box-2{
+    max-width: 947px;
+    height: 236px;
+    margin-top: 42px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.answer-box-2-content{
+    text-align: left;
+    max-width: 477px;
+    height: 220px;
+    padding-right: 65px;
+}
+.box-2-img{
+    max-width: 223px;
+    height: 208px;
+}
+
+.answer-box-3{
+    max-width: 947px;
+    height: 236px;
+    margin-top: 42px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.answer-box-3-content{
+    max-width: 477px;
+    height: 220px;
+    text-align: left;
+}
+.box-3-img{
+    max-width: 206px;
+    height: 187px;
+    padding-right: 65px;
 }
