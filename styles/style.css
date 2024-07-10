@@ -196,7 +196,7 @@ opacity: 0.7;
 .inspiration{
     max-width: 1200px;
     height: 775px;
-    margin: 88px 152px 151px 148px;
+    margin: 88px 152px 120px 148px;
     font-family: "Azeret Mono", monospace;       
 }
 
@@ -209,9 +209,13 @@ opacity: 0.7;
 }
 
 .inspiration-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
-    color: black;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
 
 }
 .inspiration-description{
@@ -236,4 +240,55 @@ opacity: 0.7;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+}
+
+
+/* Current Target Style | section -3 */
+
+.current-target{
+   width: 1200px;
+   height: 460px;
+   margin: 0 auto;
+}
+
+.current-target-container{
+    width: 1200px;
+    height: 300px;
+    margin-top: 40px;
+    display: flex;
+    gap: 24px;
+   
+   
+}
+
+.current-target-box{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    text-align: left;
+}
+
+.container-box{
+    font-size: 24px;
+    font-weight: 800;
+
+}
+.container-descrpiption{
+color: grey;
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.container-btn{
+    color: black;
+}
+#css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
 }
