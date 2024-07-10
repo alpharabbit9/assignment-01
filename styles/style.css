@@ -190,3 +190,50 @@ opacity: 0.7;
     height: 187px;
     padding-right: 65px;
 }
+
+/* My Inspiration | section-2 */
+
+.inspiration{
+    max-width: 1200px;
+    height: 775px;
+    margin: 88px 152px 151px 148px;
+    font-family: "Azeret Mono", monospace;       
+}
+
+.inspiration-content{
+    text-align: center;
+    width: 852px;
+    height: 113px;
+    margin-left: 174px;
+    margin-right: 174px;
+}
+
+.inspiration-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: black;
+
+}
+.inspiration-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+}
+
+.inspiration-vlog{
+    width: 1200px;
+    height: 614px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+.vlog-content{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
